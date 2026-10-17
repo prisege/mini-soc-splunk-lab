@@ -1,0 +1,14 @@
+# Original reports, logs, VM files, credentials, and private review material
+*.docx
+*.pdf
+*.log
+*.vdi
+*.vmdk
+*.ova
+*.pem
+*.key
+.env
+.env.*
+work/
+private/
+__pycache__/
