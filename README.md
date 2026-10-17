@@ -48,11 +48,11 @@ These severities are exercise settings, not assessments of confirmed malicious a
 - [INC-002 — Local user creation test](incidents/INC-002-new-user.md)
 - [INC-003 — Administrative command test](incidents/INC-003-sudo.md)
 
-Identifiers in these reports are replaced with publication aliases. No raw log export is included.
+Identifiers in these reports are anonymized. No raw log export is included.
 
 ## Screenshots
 
-Three selected original lab screenshots show [localhost port forwarding](screenshots/01-localhost-forwarding.png), [failed-login alert settings](screenshots/02-failed-ssh-alert.png), and [new-user alert settings](screenshots/03-new-user-alert.png). See the [screenshot notes](screenshots/README.md) for context and review limits.
+Three selected original lab screenshots show [localhost port forwarding](screenshots/01-localhost-forwarding.png), [failed-login alert settings](screenshots/02-failed-ssh-alert.png), and [new-user alert settings](screenshots/03-new-user-alert.png). See the [screenshot notes](screenshots/README.md) for configuration details and evidence limitations.
 
 ## Documentation
 
@@ -73,4 +73,5 @@ I practiced Linux log collection, SPL filtering, scheduled alert configuration, 
 - Create synthetic sample data and validate it separately from the original lab evidence.
 
 The source project records successful lab tests. The packaged queries have not been rerun in a live Splunk instance as part of preparing this repository. This repository contains documentation and search files, not an automatically deployable Splunk app.
+
 
