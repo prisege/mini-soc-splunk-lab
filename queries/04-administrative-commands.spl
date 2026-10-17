@@ -1,0 +1,1 @@
+index=main sourcetype=linux_secure source="/var/log/auth.log" AND ("COMMAND=/usr/bin/whoami" OR "COMMAND=/usr/bin/hostname" OR "COMMAND=/usr/bin/id" OR "COMMAND=/usr/bin/uname -a" OR "COMMAND=/usr/sbin/userdel")

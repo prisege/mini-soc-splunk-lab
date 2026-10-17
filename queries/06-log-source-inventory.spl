@@ -1,0 +1,2 @@
+index=main (source="/var/log/auth.log" OR source="/var/log/syslog")
+| stats count by host source sourcetype

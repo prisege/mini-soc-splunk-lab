@@ -1,0 +1,1 @@
+index=main sourcetype=syslog source="/var/log/syslog" AND ("Starting" OR "Started" OR "Stopped" OR "Finished")
